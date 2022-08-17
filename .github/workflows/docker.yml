@@ -26,4 +26,4 @@ jobs:
           context: .
           file: ./Dockerfile
           push: true
-          tags: ${{ secrets.DOCKERUSERNAME }}micro-service:latest
+          tags: ${{ secrets.DOCKERUSERNAME }}/micro-service:latest
